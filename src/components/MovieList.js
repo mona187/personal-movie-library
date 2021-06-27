@@ -10,7 +10,7 @@ const MovieList = (props) => {
         movie.title.toLowerCase().includes(query.toLowerCase()) ||
         movie.genre.toLowerCase().includes(query.toLowerCase())
     )
-
+    // hrjxgffgg
     .map((movie) => <MovieItem movie={movie} movieId={movie.id} />);
   return (
     <div>
