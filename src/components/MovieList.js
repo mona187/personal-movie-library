@@ -8,7 +8,6 @@ const MovieList = (props) => {
     .filter(
       (movie) =>
         movie.title.toLowerCase().includes(query.toLowerCase()) ||
-        movie.rating.toString().includes(query) ||
         movie.genre.toLowerCase().includes(query.toLowerCase())
     )
 
