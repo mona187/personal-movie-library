@@ -7,6 +7,7 @@ import movieStore from "./stores/movieStore";
 
 const MovieList = () => {
   const [query, setQuery] = useState("");
+
   const movieList = movieStore.movies
     .filter(
       (movie) =>
@@ -16,6 +17,7 @@ const MovieList = () => {
     .filter((movie) => movie.watched === true)
 
     .map((movie) => <MovieItem movie={movie} movieId={movie.id} />);
+
   return (
     <div>
       <SearchBar setQuery={setQuery} />
