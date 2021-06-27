@@ -1,5 +1,7 @@
 const movies = [
   {
+    id: 1,
+    watched: false,
     title: "Citizen Kane",
     released: " 5 September 1941",
     runtime: "1h 59min",
@@ -9,6 +11,8 @@ const movies = [
       "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX667_CR0,0,667,999_AL_.jpg",
   },
   {
+    id: 2,
+    watched: false,
     title: "Full Metal Jacket",
     released: "10 July 1987",
     runtime: "1h 56min",
@@ -18,6 +22,8 @@ const movies = [
       "https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
   },
   {
+    id: 3,
+    watched: true,
     title: "Taxi Driver",
     released: "9 February 1976",
     runtime: "1h 54min",
@@ -27,6 +33,8 @@ const movies = [
       "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,658,1000_AL_.jpg",
   },
   {
+    id: 4,
+    watched: true,
     title: "Scarface",
     released: "9 December 1983",
     runtime: "2h 50min",
@@ -36,6 +44,8 @@ const movies = [
       "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,666,1000_AL_.jpg",
   },
   {
+    id: 5,
+    watched: true,
     title: "Lawrence of Arabia",
     released: "11 December 1962",
     runtime: "3h 48min",
@@ -45,6 +55,8 @@ const movies = [
       "https://m.media-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SY1000_CR0,0,693,1000_AL_.jpg",
   },
   {
+    id: 6,
+    watched: true,
     title: "The Sting",
     released: "25 December 1973",
     runtime: "2h 9min",
@@ -54,6 +66,8 @@ const movies = [
       "https://m.media-amazon.com/images/M/MV5BNGU3NjQ4YTMtZGJjOS00YTQ3LThmNmItMTI5MDE2ODI3NzY3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
   },
   {
+    id: 7,
+    watched: true,
     title: "A Separation",
     released: "28 June 2012",
     runtime: "2h 3min",
