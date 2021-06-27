@@ -1,5 +1,6 @@
 import { MovieWrapper } from "../styles";
 import MovieButton from "./MovieButton";
+import DeleteButton from "./DeleteButton";
 
 const MovieItem = (props) => {
   return (
@@ -9,6 +10,7 @@ const MovieItem = (props) => {
         <p>{props.movie.title}</p>
         <p>{props.movie.genre}</p>
         <MovieButton movie={props.movie}></MovieButton>
+        <DeleteButton movie={props.movie}></DeleteButton>
       </MovieWrapper>
     </div>
   );

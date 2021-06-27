@@ -7,9 +7,16 @@ class MovieStore {
   constructor() {
     makeAutoObservable(this);
   }
-  updateWatchStatus = (updatedMovie) => {
+  updateWatch = (updatedMovie) => {
     const movie = this.movies.find((movie) => movie.id === updatedMovie.id);
     movie.watched = !movie.watched;
+  };
+
+  moviesDelete = (deletedMovie) => {
+    const movieDeleted = this.movies.filter(
+      (movie) => movie.id !== deletedMovie.id
+    );
+    this.movies = movieDeleted;
   };
 }
 const movieStore = new MovieStore();
