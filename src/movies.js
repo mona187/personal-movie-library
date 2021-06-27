@@ -1,6 +1,7 @@
 const movies = [
   {
     id: 1,
+    watched: true,
     title: "Citizen Kane",
     released: " 5 September 1941",
     runtime: "1h 59min",
@@ -11,6 +12,7 @@ const movies = [
   },
   {
     id: 2,
+    watched: true,
     title: "Full Metal Jacket",
     released: "10 July 1987",
     runtime: "1h 56min",
@@ -21,6 +23,7 @@ const movies = [
   },
   {
     id: 3,
+    watched: true,
     title: "Taxi Driver",
     released: "9 February 1976",
     runtime: "1h 54min",
@@ -31,6 +34,7 @@ const movies = [
   },
   {
     id: 4,
+    watched: true,
     title: "Scarface",
     released: "9 December 1983",
     runtime: "2h 50min",
@@ -41,6 +45,7 @@ const movies = [
   },
   {
     id: 5,
+    watched: true,
     title: "Lawrence of Arabia",
     released: "11 December 1962",
     runtime: "3h 48min",
@@ -51,6 +56,7 @@ const movies = [
   },
   {
     id: 6,
+    watched: true,
     title: "The Sting",
     released: "25 December 1973",
     runtime: "2h 9min",
@@ -61,6 +67,7 @@ const movies = [
   },
   {
     id: 7,
+    watched: true,
     title: "A Separation",
     released: "28 June 2012",
     runtime: "2h 3min",
