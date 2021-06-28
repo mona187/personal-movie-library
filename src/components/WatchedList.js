@@ -1,6 +1,6 @@
 import MovieItem from "./MovieItem";
 import SearchBar from "./SearchBar";
-import { ListWrapper } from "../styles";
+import { ListWrapper, Title } from "../styles";
 import { useState } from "react";
 import { observer } from "mobx-react";
 import movieStore from "./stores/movieStore";
@@ -19,14 +19,15 @@ const WatchedList = () => {
 
   return (
     <div>
-      <p>
+      <Title>
+        Watched Movies:
         {!query
           ? watchedList.length
-          : "showing " +
+          : " showing " +
             watchedList.length +
             " out of " +
             movieStore.movies.filter((movie) => movie.watched === true).length}
-      </p>
+      </Title>
       <SearchBar setQuery={setQuery} />
       <ListWrapper>{watchedList}</ListWrapper>
     </div>

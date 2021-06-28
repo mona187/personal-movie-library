@@ -7,6 +7,11 @@ body {
 }
 `;
 
+export const Title = styled.h3`
+  margin-top: 40px;
+  text-align: center;
+`;
+
 export const ListWrapper = styled.div`
   align-items: center;
   justify-content: center;
@@ -46,8 +51,8 @@ export const Wrapper = styled.div`
   flex-wrap: wrap;
   width: 50%;
   margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   justify-content: center;
   align-items: center;
 `;

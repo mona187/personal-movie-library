@@ -18,7 +18,6 @@ function App() {
         <AddMovie />
         <h1>Watchlist Movies:</h1>
         <MovieList />
-        <h1>Watched Movies:</h1>
         <WatchedList />
       </ThemeProvider>
     </div>
