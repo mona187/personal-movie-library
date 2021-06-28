@@ -7,7 +7,7 @@ const AddMovie = () => {
     id: "",
     watched: false,
     title: "",
-    genre: "",
+    genre: "Drama",
     poster: "",
   });
   const handleChange = (event) => {
@@ -29,6 +29,15 @@ const AddMovie = () => {
             onChange={handleChange}
             title="title"
             aria-label="movie name"
+            aria-describedby="button-addon2"
+          />
+          <input
+            type="text"
+            className="form-control"
+            placeholder="movie poster..."
+            onChange={handleChange}
+            title="poster"
+            aria-label="movie poster"
             aria-describedby="button-addon2"
           />
           <button

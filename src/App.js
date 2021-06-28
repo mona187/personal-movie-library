@@ -16,7 +16,6 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <AddMovie />
-        <h1>Watchlist Movies:</h1>
         <MovieList />
         <WatchedList />
       </ThemeProvider>

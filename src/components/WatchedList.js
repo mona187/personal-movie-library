@@ -22,7 +22,7 @@ const WatchedList = () => {
       <Title>
         Watched Movies:
         {!query
-          ? watchedList.length
+          ? " " + watchedList.length
           : " showing " +
             watchedList.length +
             " out of " +
