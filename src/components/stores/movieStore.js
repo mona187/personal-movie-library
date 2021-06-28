@@ -18,6 +18,13 @@ class MovieStore {
     );
     this.movies = movieDeleted;
   };
+
+  //changes
+  moviesAdd = (addedMovie) => {
+    addedMovie.id = this.movies.length + 1;
+    this.movies.push(addedMovie);
+  };
+  /*
   moviesAdd = (updatedMovieTitle) => {
     console.log(updatedMovieTitle);
     this.movies.push({
@@ -26,7 +33,7 @@ class MovieStore {
       watched: false,
     });
     console.log(this.movies);
-  };
+  };*/
 }
 const movieStore = new MovieStore();
 
