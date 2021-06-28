@@ -6,6 +6,10 @@ const DeleteButton = (props) => {
     movieStore.moviesDelete(props.movie);
   };
 
-  return <button onClick={handleDelete}>Delete</button>;
+  return (
+    <button type="button" class="btn btn-danger" onClick={handleDelete}>
+      Delete
+    </button>
+  );
 };
 export default observer(DeleteButton);

@@ -14,7 +14,7 @@ const MovieList = () => {
         movie.title.toLowerCase().includes(query.toLowerCase()) ||
         movie.genre.toLowerCase().includes(query.toLowerCase())
     )
-    .filter((movie) => movie.watched === true)
+    .filter((movie) => movie.watched === false)
 
     .map((movie) => <MovieItem movie={movie} movieId={movie.id} />);
 

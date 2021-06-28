@@ -1,7 +1,11 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-background-color:${(props) => props.theme.backgroundColor}`;
+body {
+  background-color: ${(props) => props.theme.backgroundColor};
+  color: ${(props) => props.theme.mainColor};
+}
+`;
 
 export const ListWrapper = styled.div`
   align-items: center;
@@ -38,10 +42,14 @@ export const DetailWrapper = styled.div`
   }
 `;
 export const Wrapper = styled.div`
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  width: 90%;
+  width: 50%;
   margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
 `;
 export const SearchBarStyled = styled.input`
   width: 80%;

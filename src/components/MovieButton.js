@@ -7,8 +7,8 @@ const MovieButton = (props) => {
   };
 
   return (
-    <button onClick={handleUpdate}>
-      {props.movie.watched ? "Watch" : "Unwatch"}
+    <button type="button" class="btn btn-dark" onClick={handleUpdate}>
+      {props.movie.watched ? "Unwatch" : "Watched"}
     </button>
   );
 };
